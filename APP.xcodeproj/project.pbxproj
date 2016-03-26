@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181234FC1B0C134600549BF7 /* deleteUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181234FB1B0C134600549BF7 /* deleteUserViewController.m */; };
+		181D057F1B05C82200A0C762 /* Poker.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D057E1B05C82200A0C762 /* Poker.m */; };
+		181D05831B05C83900A0C762 /* PokerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D05821B05C83900A0C762 /* PokerStack.m */; };
+		181D05871B05C85600A0C762 /* GameLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D05861B05C85600A0C762 /* GameLogic.m */; };
+		181D058D1B05C89C00A0C762 /* PokerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D058C1B05C89C00A0C762 /* PokerView.m */; };
+		181D05941B05DA2200A0C762 /* VeryHardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D05931B05DA2200A0C762 /* VeryHardViewController.m */; };
+		181D05971B05DA3200A0C762 /* HardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D05961B05DA3200A0C762 /* HardGameViewController.m */; };
+		181D059A1B05DA4100A0C762 /* NormalGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D05991B05DA4100A0C762 /* NormalGameViewController.m */; };
+		181D059D1B05DA4F00A0C762 /* SimpleGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D059C1B05DA4F00A0C762 /* SimpleGameViewController.m */; };
+		18952CC51B05795F0008AB9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18952CC41B05795F0008AB9C /* Default-568h@2x.png */; };
+		18952CC91B058E630008AB9C /* UserIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18952CC81B058E630008AB9C /* UserIndexViewController.m */; };
+		75AB2EAE1B04E58300C0E6A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EAD1B04E58300C0E6A7 /* main.m */; };
+		75AB2EB11B04E58300C0E6A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EB01B04E58300C0E6A7 /* AppDelegate.m */; };
+		75AB2EB71B04E58300C0E6A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AB2EB51B04E58300C0E6A7 /* Main.storyboard */; };
+		75AB2EB91B04E58300C0E6A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AB2EB81B04E58300C0E6A7 /* Images.xcassets */; };
+		75AB2EBC1B04E58300C0E6A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75AB2EBA1B04E58300C0E6A7 /* LaunchScreen.xib */; };
+		75AB2EC81B04E58300C0E6A7 /* APPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EC71B04E58300C0E6A7 /* APPTests.m */; };
+		75AB2ED41B04E64C00C0E6A7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2ED31B04E64C00C0E6A7 /* User.m */; };
+		75AB2ED71B04EB3700C0E6A7 /* UserList.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2ED61B04EB3700C0E6A7 /* UserList.m */; };
+		75AB2EDB1B04F00A00C0E6A7 /* UserListWithFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EDA1B04F00A00C0E6A7 /* UserListWithFMDB.m */; };
+		75AB2EE81B04F0F000C0E6A7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EDE1B04F0F000C0E6A7 /* FMDatabase.m */; };
+		75AB2EE91B04F0F000C0E6A7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EE01B04F0F000C0E6A7 /* FMDatabaseAdditions.m */; };
+		75AB2EEA1B04F0F000C0E6A7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EE21B04F0F000C0E6A7 /* FMDatabasePool.m */; };
+		75AB2EEB1B04F0F000C0E6A7 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EE41B04F0F000C0E6A7 /* FMDatabaseQueue.m */; };
+		75AB2EEC1B04F0F000C0E6A7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EE71B04F0F000C0E6A7 /* FMResultSet.m */; };
+		75AB2EEE1B04F11400C0E6A7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AB2EED1B04F11400C0E6A7 /* libsqlite3.0.dylib */; };
+		75AB2EF31B050A6200C0E6A7 /* AddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EF21B050A6200C0E6A7 /* AddUserViewController.m */; };
+		75AB2EF71B050AB600C0E6A7 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AB2EF61B050AB600C0E6A7 /* IndexViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75AB2EC21B04E58300C0E6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75AB2EA01B04E58300C0E6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75AB2EA71B04E58300C0E6A7;
+			remoteInfo = APP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181234FA1B0C134600549BF7 /* deleteUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deleteUserViewController.h; sourceTree = "<group>"; };
+		181234FB1B0C134600549BF7 /* deleteUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deleteUserViewController.m; sourceTree = "<group>"; };
+		181D057D1B05C82200A0C762 /* Poker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Poker.h; path = GameModle/Poker.h; sourceTree = "<group>"; };
+		181D057E1B05C82200A0C762 /* Poker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Poker.m; path = GameModle/Poker.m; sourceTree = "<group>"; };
+		181D05811B05C83900A0C762 /* PokerStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PokerStack.h; path = GameModle/PokerStack.h; sourceTree = "<group>"; };
+		181D05821B05C83900A0C762 /* PokerStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PokerStack.m; path = GameModle/PokerStack.m; sourceTree = "<group>"; };
+		181D05851B05C85600A0C762 /* GameLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameLogic.h; path = GameModle/GameLogic.h; sourceTree = "<group>"; };
+		181D05861B05C85600A0C762 /* GameLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameLogic.m; path = GameModle/GameLogic.m; sourceTree = "<group>"; };
+		181D058B1B05C89C00A0C762 /* PokerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PokerView.h; path = View/PokerView.h; sourceTree = "<group>"; };
+		181D058C1B05C89C00A0C762 /* PokerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PokerView.m; path = View/PokerView.m; sourceTree = "<group>"; };
+		181D05921B05DA2200A0C762 /* VeryHardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeryHardViewController.h; path = ViewController/VeryHardViewController.h; sourceTree = "<group>"; };
+		181D05931B05DA2200A0C762 /* VeryHardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VeryHardViewController.m; path = ViewController/VeryHardViewController.m; sourceTree = "<group>"; };
+		181D05951B05DA3200A0C762 /* HardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HardGameViewController.h; path = ViewController/HardGameViewController.h; sourceTree = "<group>"; };
+		181D05961B05DA3200A0C762 /* HardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HardGameViewController.m; path = ViewController/HardGameViewController.m; sourceTree = "<group>"; };
+		181D05981B05DA4100A0C762 /* NormalGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NormalGameViewController.h; path = ViewController/NormalGameViewController.h; sourceTree = "<group>"; };
+		181D05991B05DA4100A0C762 /* NormalGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NormalGameViewController.m; path = ViewController/NormalGameViewController.m; sourceTree = "<group>"; };
+		181D059B1B05DA4F00A0C762 /* SimpleGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleGameViewController.h; path = ViewController/SimpleGameViewController.h; sourceTree = "<group>"; };
+		181D059C1B05DA4F00A0C762 /* SimpleGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleGameViewController.m; path = ViewController/SimpleGameViewController.m; sourceTree = "<group>"; };
+		18952CC41B05795F0008AB9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18952CC71B058E630008AB9C /* UserIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserIndexViewController.h; path = ViewController/UserIndexViewController.h; sourceTree = "<group>"; };
+		18952CC81B058E630008AB9C /* UserIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserIndexViewController.m; path = ViewController/UserIndexViewController.m; sourceTree = "<group>"; };
+		75AB2EA81B04E58300C0E6A7 /* APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AB2EAC1B04E58300C0E6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AB2EAD1B04E58300C0E6A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75AB2EAF1B04E58300C0E6A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75AB2EB01B04E58300C0E6A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75AB2EB61B04E58300C0E6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75AB2EB81B04E58300C0E6A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75AB2EBB1B04E58300C0E6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75AB2EC11B04E58300C0E6A7 /* APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AB2EC61B04E58300C0E6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AB2EC71B04E58300C0E6A7 /* APPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPTests.m; sourceTree = "<group>"; };
+		75AB2ED21B04E64C00C0E6A7 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = UserModle/User.h; sourceTree = "<group>"; };
+		75AB2ED31B04E64C00C0E6A7 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = UserModle/User.m; sourceTree = "<group>"; };
+		75AB2ED51B04EB3700C0E6A7 /* UserList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserList.h; path = UserModle/UserList.h; sourceTree = "<group>"; };
+		75AB2ED61B04EB3700C0E6A7 /* UserList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserList.m; path = UserModle/UserList.m; sourceTree = "<group>"; };
+		75AB2ED91B04F00A00C0E6A7 /* UserListWithFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListWithFMDB.h; sourceTree = "<group>"; };
+		75AB2EDA1B04F00A00C0E6A7 /* UserListWithFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListWithFMDB.m; sourceTree = "<group>"; };
+		75AB2EDD1B04F0F000C0E6A7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		75AB2EDE1B04F0F000C0E6A7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		75AB2EDF1B04F0F000C0E6A7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		75AB2EE01B04F0F000C0E6A7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		75AB2EE11B04F0F000C0E6A7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = FMDB/FMDatabasePool.h; sourceTree = "<group>"; };
+		75AB2EE21B04F0F000C0E6A7 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = FMDB/FMDatabasePool.m; sourceTree = "<group>"; };
+		75AB2EE31B04F0F000C0E6A7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = FMDB/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		75AB2EE41B04F0F000C0E6A7 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = FMDB/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		75AB2EE51B04F0F000C0E6A7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = FMDB/FMDB.h; sourceTree = "<group>"; };
+		75AB2EE61B04F0F000C0E6A7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = FMDB/FMResultSet.h; sourceTree = "<group>"; };
+		75AB2EE71B04F0F000C0E6A7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = FMDB/FMResultSet.m; sourceTree = "<group>"; };
+		75AB2EED1B04F11400C0E6A7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		75AB2EF11B050A6200C0E6A7 /* AddUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddUserViewController.h; path = ViewController/AddUserViewController.h; sourceTree = "<group>"; };
+		75AB2EF21B050A6200C0E6A7 /* AddUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddUserViewController.m; path = ViewController/AddUserViewController.m; sourceTree = "<group>"; };
+		75AB2EF51B050AB600C0E6A7 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndexViewController.h; path = ViewController/IndexViewController.h; sourceTree = "<group>"; };
+		75AB2EF61B050AB600C0E6A7 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IndexViewController.m; path = ViewController/IndexViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75AB2EA51B04E58300C0E6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AB2EEE1B04F11400C0E6A7 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AB2EBE1B04E58300C0E6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181234F91B0C11CA00549BF7 /* DeleteUserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181234FA1B0C134600549BF7 /* deleteUserViewController.h */,
+				181234FB1B0C134600549BF7 /* deleteUserViewController.m */,
+			);
+			name = DeleteUserViewController;
+			sourceTree = "<group>";
+		};
+		181D057B1B05C7D400A0C762 /* GameModle */ = {
+			isa = PBXGroup;
+			children = (
+				181D05841B05C84C00A0C762 /* GameLogic */,
+				181D05801B05C83000A0C762 /* PokerStack */,
+				181D057C1B05C7FD00A0C762 /* Poker */,
+			);
+			name = GameModle;
+			sourceTree = "<group>";
+		};
+		181D057C1B05C7FD00A0C762 /* Poker */ = {
+			isa = PBXGroup;
+			children = (
+				181D057D1B05C82200A0C762 /* Poker.h */,
+				181D057E1B05C82200A0C762 /* Poker.m */,
+			);
+			name = Poker;
+			sourceTree = "<group>";
+		};
+		181D05801B05C83000A0C762 /* PokerStack */ = {
+			isa = PBXGroup;
+			children = (
+				181D05811B05C83900A0C762 /* PokerStack.h */,
+				181D05821B05C83900A0C762 /* PokerStack.m */,
+			);
+			name = PokerStack;
+			sourceTree = "<group>";
+		};
+		181D05841B05C84C00A0C762 /* GameLogic */ = {
+			isa = PBXGroup;
+			children = (
+				181D05851B05C85600A0C762 /* GameLogic.h */,
+				181D05861B05C85600A0C762 /* GameLogic.m */,
+			);
+			name = GameLogic;
+			sourceTree = "<group>";
+		};
+		181D05881B05C86000A0C762 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181D058A1B05C89200A0C762 /* PokerView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		181D05891B05C87300A0C762 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				181D057B1B05C7D400A0C762 /* GameModle */,
+				75AB2ED81B04EDCB00C0E6A7 /* UserFMDBManage */,
+				75AB2ED11B04E5A500C0E6A7 /* UserModle */,
+			);
+			name = Modle;
+			sourceTree = "<group>";
+		};
+		181D058A1B05C89200A0C762 /* PokerView */ = {
+			isa = PBXGroup;
+			children = (
+				181D058B1B05C89C00A0C762 /* PokerView.h */,
+				181D058C1B05C89C00A0C762 /* PokerView.m */,
+			);
+			name = PokerView;
+			sourceTree = "<group>";
+		};
+		181D058E1B05D97A00A0C762 /* SimpleGameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181D059B1B05DA4F00A0C762 /* SimpleGameViewController.h */,
+				181D059C1B05DA4F00A0C762 /* SimpleGameViewController.m */,
+			);
+			name = SimpleGameViewController;
+			sourceTree = "<group>";
+		};
+		181D058F1B05D9C400A0C762 /* NormalGameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181D05981B05DA4100A0C762 /* NormalGameViewController.h */,
+				181D05991B05DA4100A0C762 /* NormalGameViewController.m */,
+			);
+			name = NormalGameViewController;
+			sourceTree = "<group>";
+		};
+		181D05901B05D9D100A0C762 /* HardGameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181D05951B05DA3200A0C762 /* HardGameViewController.h */,
+				181D05961B05DA3200A0C762 /* HardGameViewController.m */,
+			);
+			name = HardGameViewController;
+			sourceTree = "<group>";
+		};
+		181D05911B05D9E600A0C762 /* VeryHardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181D05921B05DA2200A0C762 /* VeryHardViewController.h */,
+				181D05931B05DA2200A0C762 /* VeryHardViewController.m */,
+			);
+			name = VeryHardViewController;
+			sourceTree = "<group>";
+		};
+		18952CC61B058E330008AB9C /* UserIndexViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18952CC71B058E630008AB9C /* UserIndexViewController.h */,
+				18952CC81B058E630008AB9C /* UserIndexViewController.m */,
+			);
+			name = UserIndexViewController;
+			sourceTree = "<group>";
+		};
+		75AB2E9F1B04E58300C0E6A7 = {
+			isa = PBXGroup;
+			children = (
+				18952CC41B05795F0008AB9C /* Default-568h@2x.png */,
+				75AB2EED1B04F11400C0E6A7 /* libsqlite3.0.dylib */,
+				75AB2EAA1B04E58300C0E6A7 /* APP */,
+				75AB2EC41B04E58300C0E6A7 /* APPTests */,
+				75AB2EA91B04E58300C0E6A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75AB2EA91B04E58300C0E6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75AB2EA81B04E58300C0E6A7 /* APP.app */,
+				75AB2EC11B04E58300C0E6A7 /* APPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75AB2EAA1B04E58300C0E6A7 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				181D05891B05C87300A0C762 /* Modle */,
+				181D05881B05C86000A0C762 /* View */,
+				75AB2EEF1B0509E100C0E6A7 /* ViewController */,
+				75AB2EB51B04E58300C0E6A7 /* Main.storyboard */,
+				75AB2EB81B04E58300C0E6A7 /* Images.xcassets */,
+				75AB2EBA1B04E58300C0E6A7 /* LaunchScreen.xib */,
+				75AB2EAB1B04E58300C0E6A7 /* Supporting Files */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		75AB2EAB1B04E58300C0E6A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75AB2EDC1B04F0A000C0E6A7 /* FMDB */,
+				75AB2EAF1B04E58300C0E6A7 /* AppDelegate.h */,
+				75AB2EB01B04E58300C0E6A7 /* AppDelegate.m */,
+				75AB2EAC1B04E58300C0E6A7 /* Info.plist */,
+				75AB2EAD1B04E58300C0E6A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75AB2EC41B04E58300C0E6A7 /* APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				75AB2EC71B04E58300C0E6A7 /* APPTests.m */,
+				75AB2EC51B04E58300C0E6A7 /* Supporting Files */,
+			);
+			path = APPTests;
+			sourceTree = "<group>";
+		};
+		75AB2EC51B04E58300C0E6A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75AB2EC61B04E58300C0E6A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75AB2ED11B04E5A500C0E6A7 /* UserModle */ = {
+			isa = PBXGroup;
+			children = (
+				75AB2ED21B04E64C00C0E6A7 /* User.h */,
+				75AB2ED31B04E64C00C0E6A7 /* User.m */,
+				75AB2ED51B04EB3700C0E6A7 /* UserList.h */,
+				75AB2ED61B04EB3700C0E6A7 /* UserList.m */,
+			);
+			name = UserModle;
+			sourceTree = "<group>";
+		};
+		75AB2ED81B04EDCB00C0E6A7 /* UserFMDBManage */ = {
+			isa = PBXGroup;
+			children = (
+				75AB2ED91B04F00A00C0E6A7 /* UserListWithFMDB.h */,
+				75AB2EDA1B04F00A00C0E6A7 /* UserListWithFMDB.m */,
+			);
+			name = UserFMDBManage;
+			sourceTree = "<group>";
+		};
+		75AB2EDC1B04F0A000C0E6A7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				75AB2EDD1B04F0F000C0E6A7 /* FMDatabase.h */,
+				75AB2EDE1B04F0F000C0E6A7 /* FMDatabase.m */,
+				75AB2EDF1B04F0F000C0E6A7 /* FMDatabaseAdditions.h */,
+				75AB2EE01B04F0F000C0E6A7 /* FMDatabaseAdditions.m */,
+				75AB2EE11B04F0F000C0E6A7 /* FMDatabasePool.h */,
+				75AB2EE21B04F0F000C0E6A7 /* FMDatabasePool.m */,
+				75AB2EE31B04F0F000C0E6A7 /* FMDatabaseQueue.h */,
+				75AB2EE41B04F0F000C0E6A7 /* FMDatabaseQueue.m */,
+				75AB2EE51B04F0F000C0E6A7 /* FMDB.h */,
+				75AB2EE61B04F0F000C0E6A7 /* FMResultSet.h */,
+				75AB2EE71B04F0F000C0E6A7 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		75AB2EEF1B0509E100C0E6A7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181234F91B0C11CA00549BF7 /* DeleteUserViewController */,
+				181D05911B05D9E600A0C762 /* VeryHardViewController */,
+				181D05901B05D9D100A0C762 /* HardGameViewController */,
+				181D058F1B05D9C400A0C762 /* NormalGameViewController */,
+				181D058E1B05D97A00A0C762 /* SimpleGameViewController */,
+				18952CC61B058E330008AB9C /* UserIndexViewController */,
+				75AB2EF01B050A1600C0E6A7 /* AddUserViewController */,
+				75AB2EF41B050A8200C0E6A7 /* IndexViewController */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		75AB2EF01B050A1600C0E6A7 /* AddUserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75AB2EF11B050A6200C0E6A7 /* AddUserViewController.h */,
+				75AB2EF21B050A6200C0E6A7 /* AddUserViewController.m */,
+			);
+			name = AddUserViewController;
+			sourceTree = "<group>";
+		};
+		75AB2EF41B050A8200C0E6A7 /* IndexViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75AB2EF51B050AB600C0E6A7 /* IndexViewController.h */,
+				75AB2EF61B050AB600C0E6A7 /* IndexViewController.m */,
+			);
+			name = IndexViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75AB2EA71B04E58300C0E6A7 /* APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AB2ECB1B04E58300C0E6A7 /* Build configuration list for PBXNativeTarget "APP" */;
+			buildPhases = (
+				75AB2EA41B04E58300C0E6A7 /* Sources */,
+				75AB2EA51B04E58300C0E6A7 /* Frameworks */,
+				75AB2EA61B04E58300C0E6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APP;
+			productName = APP;
+			productReference = 75AB2EA81B04E58300C0E6A7 /* APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75AB2EC01B04E58300C0E6A7 /* APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AB2ECE1B04E58300C0E6A7 /* Build configuration list for PBXNativeTarget "APPTests" */;
+			buildPhases = (
+				75AB2EBD1B04E58300C0E6A7 /* Sources */,
+				75AB2EBE1B04E58300C0E6A7 /* Frameworks */,
+				75AB2EBF1B04E58300C0E6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75AB2EC31B04E58300C0E6A7 /* PBXTargetDependency */,
+			);
+			name = APPTests;
+			productName = APPTests;
+			productReference = 75AB2EC11B04E58300C0E6A7 /* APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75AB2EA01B04E58300C0E6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zhougaojv;
+				TargetAttributes = {
+					75AB2EA71B04E58300C0E6A7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					75AB2EC01B04E58300C0E6A7 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 75AB2EA71B04E58300C0E6A7;
+					};
+				};
+			};
+			buildConfigurationList = 75AB2EA31B04E58300C0E6A7 /* Build configuration list for PBXProject "APP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75AB2E9F1B04E58300C0E6A7;
+			productRefGroup = 75AB2EA91B04E58300C0E6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75AB2EA71B04E58300C0E6A7 /* APP */,
+				75AB2EC01B04E58300C0E6A7 /* APPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75AB2EA61B04E58300C0E6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AB2EB71B04E58300C0E6A7 /* Main.storyboard in Resources */,
+				18952CC51B05795F0008AB9C /* Default-568h@2x.png in Resources */,
+				75AB2EBC1B04E58300C0E6A7 /* LaunchScreen.xib in Resources */,
+				75AB2EB91B04E58300C0E6A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AB2EBF1B04E58300C0E6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75AB2EA41B04E58300C0E6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AB2ED41B04E64C00C0E6A7 /* User.m in Sources */,
+				181D05971B05DA3200A0C762 /* HardGameViewController.m in Sources */,
+				181D057F1B05C82200A0C762 /* Poker.m in Sources */,
+				75AB2EB11B04E58300C0E6A7 /* AppDelegate.m in Sources */,
+				75AB2EE81B04F0F000C0E6A7 /* FMDatabase.m in Sources */,
+				75AB2EEA1B04F0F000C0E6A7 /* FMDatabasePool.m in Sources */,
+				75AB2EF31B050A6200C0E6A7 /* AddUserViewController.m in Sources */,
+				75AB2EEB1B04F0F000C0E6A7 /* FMDatabaseQueue.m in Sources */,
+				181234FC1B0C134600549BF7 /* deleteUserViewController.m in Sources */,
+				181D05941B05DA2200A0C762 /* VeryHardViewController.m in Sources */,
+				75AB2ED71B04EB3700C0E6A7 /* UserList.m in Sources */,
+				75AB2EAE1B04E58300C0E6A7 /* main.m in Sources */,
+				181D059A1B05DA4100A0C762 /* NormalGameViewController.m in Sources */,
+				75AB2EEC1B04F0F000C0E6A7 /* FMResultSet.m in Sources */,
+				181D058D1B05C89C00A0C762 /* PokerView.m in Sources */,
+				75AB2EDB1B04F00A00C0E6A7 /* UserListWithFMDB.m in Sources */,
+				181D059D1B05DA4F00A0C762 /* SimpleGameViewController.m in Sources */,
+				181D05831B05C83900A0C762 /* PokerStack.m in Sources */,
+				75AB2EF71B050AB600C0E6A7 /* IndexViewController.m in Sources */,
+				75AB2EE91B04F0F000C0E6A7 /* FMDatabaseAdditions.m in Sources */,
+				181D05871B05C85600A0C762 /* GameLogic.m in Sources */,
+				18952CC91B058E630008AB9C /* UserIndexViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AB2EBD1B04E58300C0E6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AB2EC81B04E58300C0E6A7 /* APPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75AB2EC31B04E58300C0E6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75AB2EA71B04E58300C0E6A7 /* APP */;
+			targetProxy = 75AB2EC21B04E58300C0E6A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75AB2EB51B04E58300C0E6A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75AB2EB61B04E58300C0E6A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75AB2EBA1B04E58300C0E6A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75AB2EBB1B04E58300C0E6A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75AB2EC91B04E58300C0E6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75AB2ECA1B04E58300C0E6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75AB2ECC1B04E58300C0E6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = APP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c29e8a20-7d58-4e16-a123-2c064ac84a37";
+			};
+			name = Debug;
+		};
+		75AB2ECD1B04E58300C0E6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = APP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c29e8a20-7d58-4e16-a123-2c064ac84a37";
+			};
+			name = Release;
+		};
+		75AB2ECF1B04E58300C0E6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = APPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APP.app/APP";
+			};
+			name = Debug;
+		};
+		75AB2ED01B04E58300C0E6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = APPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APP.app/APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75AB2EA31B04E58300C0E6A7 /* Build configuration list for PBXProject "APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AB2EC91B04E58300C0E6A7 /* Debug */,
+				75AB2ECA1B04E58300C0E6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AB2ECB1B04E58300C0E6A7 /* Build configuration list for PBXNativeTarget "APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AB2ECC1B04E58300C0E6A7 /* Debug */,
+				75AB2ECD1B04E58300C0E6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AB2ECE1B04E58300C0E6A7 /* Build configuration list for PBXNativeTarget "APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AB2ECF1B04E58300C0E6A7 /* Debug */,
+				75AB2ED01B04E58300C0E6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75AB2EA01B04E58300C0E6A7 /* Project object */;
+}
